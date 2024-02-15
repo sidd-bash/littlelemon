@@ -1,5 +1,6 @@
 import React from 'react'
-import logo from '../../images/logo'
+import logo from '../images/logo.jpg'
+import './Nav.css'
 export default function Nav() {
   return (
     <nav>

@@ -1,0 +1,38 @@
+#specials-section{
+    padding: 20vh;
+}
+
+.specials-heading{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-bottom: 2rem;
+}
+.special-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.special{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+}
+.special >img{
+    width: 20vw;
+}
+.special-description{
+    width:15vw;
+}
+.special h2{
+    width: 100%;
+}
+#specials{
+    display: flex;
+    justify-content: space-around;
+}
+.special > div{
+    padding: 1em;
+}

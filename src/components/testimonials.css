@@ -1,0 +1,27 @@
+#testimonials-section{
+    display: flex;
+    flex-direction: column;
+    padding: 20vh;
+}
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    border:2px solid black;
+    padding: 2rem;
+    width: 20%;
+}
+
+#testimonials{
+    display: flex;
+    justify-content: space-around;
+}
+.testimonial img{
+    width: 100%;
+    border:2px solid black;
+}
+
+.profile-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

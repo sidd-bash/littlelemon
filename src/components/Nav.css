@@ -1,0 +1,16 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+nav > img{
+    max-width:30vw;
+    max-height:30vh;
+}
+nav > ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    width: 60vw;
+}

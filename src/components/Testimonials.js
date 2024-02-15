@@ -1,41 +1,44 @@
 import React from 'react'
-
+import "./testimonials.css"
+import profileImage from "../images/johnDoe.jpeg"
 export default function Testimonials() {
   return (
-    <div>
+    <div id='testimonials-section'>
       <h2>Testimonials</h2>
-      <div>
-        <h3>Rating</h3>
-        <div>
+      <div id="testimonials">
+        <div className='testimonial'>
+          <h3>⭐⭐⭐⭐⭐</h3>
+          <div className='profile-section'>
 
-        <img src=''/>
-        <p>Review</p>
-        </div>
-        <h3>Name</h3>
+          <img src={profileImage}/>
+          <p>Do tempor consectetur ad non quis reprehenderit proident dolor adipisicing duis.</p>
+          </div>
+          <h3>John Doe</h3>
         
+        </div>
+        <div className='testimonial'>
+          <h3>⭐⭐⭐⭐⭐</h3>
+          <div className='profile-section'>
+
+          <img src={profileImage}/>
+          <p>Do tempor consectetur ad non quis reprehenderit proident dolor adipisicing duis.</p>
+          </div>
+          <h3>John Doe</h3>
+        
+        </div>
+        <div className='testimonial'>
+          <h3>⭐⭐⭐⭐⭐</h3>
+          <div className='profile-section'>
+
+          <img src={profileImage}/>
+          <p>Do tempor consectetur ad non quis reprehenderit proident dolor adipisicing duis.</p>
+          </div>
+          <h3>John Doe</h3>
+        
+        </div>
       </div>
 
-      <div>
-        <h3>Rating</h3>
-        <div>
-
-        <img src=''/>
-        <p>Review</p>
-        </div>
-        <h3>Name</h3>
-        
-      </div>
-
-      <div>
-        <h3>Rating</h3>
-        <div>
-
-        <img src=''/>
-        <p>Review</p>
-        </div>
-        <h3>Name</h3>
-        
-      </div>
+      
     </div>
   )
 }
